@@ -2,8 +2,7 @@ import streamlit as st
 import leafmap.foliumap as leafmap
 
 markdown = """
-A Streamlit map template
-<https://github.com/opengeos/streamlit-map-template>
+Desarrollado por Effective Actions.
 """
 
 st.sidebar.title("About")
@@ -12,7 +11,7 @@ logo = "https://github.com/Omar220195/Streamlit-prueba/raw/main/logo.png"
 st.sidebar.image(logo)
 
 
-st.title("Interactive Map")
+st.title("Mapa caracterización")
 
 col1, col2 = st.columns([4, 1])
 options = list(leafmap.basemaps.keys())
@@ -26,7 +25,8 @@ with col2:
 with col1:
 
     m = leafmap.Map(
-        locate_control=True, latlon_control=True, draw_export=True, minimap_control=True
+        locate_control=True, latlon_control=True, draw_export=True, minimap_control=True, center=[7.882293365998897 , -76.6249929671165],  # Coordinates for Colombia
+        zoom=13,
     )
     m.add_basemap(basemap)
     m.to_streamlit(height=700)

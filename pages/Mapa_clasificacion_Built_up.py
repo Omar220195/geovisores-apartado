@@ -13,7 +13,7 @@ markdown = """
 Desarrollado por Effective Actions.
 """
 
-st.sidebar.title("About")
+st.sidebar.title("Mapa clasificación Built up")
 st.sidebar.info(markdown)
 logo = "https://github.com/Omar220195/Streamlit-prueba/raw/main/logo.png"
 st.sidebar.image(logo)
