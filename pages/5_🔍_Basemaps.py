@@ -10,7 +10,7 @@ A Streamlit map template
 
 st.sidebar.title("About")
 st.sidebar.info(markdown)
-logo = "https://i.imgur.com/UbOXYAU.png"
+logo = "https://github.com/Omar220195/Streamlit-prueba/raw/main/logo.png"
 st.sidebar.image(logo)
 
 
