@@ -5,7 +5,7 @@ st.set_page_config(layout="wide")
 
 # Customize the sidebar
 markdown = """
-Desarrollado por Effective Actions.
+Desarrollado por Effective Actions
 """
 
 st.sidebar.title("About")
