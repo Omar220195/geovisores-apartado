@@ -5,6 +5,8 @@ import matplotlib.pyplot as plt
 import matplotlib.colors as mcolors
 import folium
 
+st.set_page_config(layout="wide")
+
 # Define the path to your shapefile
 shapefile_path = "https://github.com/Omar220195/Streamlit-prueba/raw/main/year_const.shp" 
 
@@ -33,7 +35,7 @@ with col1:
     # Create the map instance
     m = leafmap.Map(
         center=[7.882293365998897 , -76.6249929671165],  # Coordinates for Colombia
-        zoom=13,  
+        zoom=15,  
         locate_control=True, latlon_control=True, draw_export=True, minimap_control=True
     )
 
