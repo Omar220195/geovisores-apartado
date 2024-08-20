@@ -121,7 +121,7 @@ with col1:
     <b>Leyenda</b><br>
     <i style="background: yellow; width: 24px; height: 24px; display: inline-block;"></i> Predio con aumento en area<br>
     <i style="background: red; width: 24px; height: 24px; display: inline-block;"></i> Nueva construccion<br>
-    <i style="background: purple; width: 24px; height: 24px; display: inline-block;"></i> Demolicion total<br>
+    <i style="background: purple; width: 24px; height: 24px; display: inline-block;"></i> Demolicion total.<br>
     <i style="background: lightgrey; width: 24px; height: 24px; display: inline-block;"></i> Sin cambios considerables<br>
     </div>
     """
